@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "Test_1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "World",
+                    "output": "Hello World",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "0",
+        "system": "100"
+    },
+    "lastSaved": "20141223 143018"
+}
